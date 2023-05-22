@@ -1,9 +1,9 @@
 {
   "version": "0.1.0",
   "name": "platzi-next",
-  "author": "@jonalvarezz",
+  "author": "@estebansant",
   "private": true,
-  "description": "",
+  "description": "<p align=\"center\">   <a href=\"https://platzi.com/cursos/next-2020/\" target=\"_blank\">     <img alt=\"Curso de Next.js\" src=\"https://static.platzi.com/media/achievements/badge-nextjs-2259fc68-f86b-486e-bc09-95311a887985.png\" width=\"60\" />   </a> </p> <h1 align=\"center\">   Proyecto del Curso: Next.js </h1> <p align=\"center\">   <a href=\"https://platzi-avo.vercel.app/\" target=\"_blank\">     https://platzi-avo.vercel.app/   </a> </p>",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -38,5 +38,15 @@
     "tabWidth": 2,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonalvarezz/platzi-nextjs.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/jonalvarezz/platzi-nextjs/issues"
+  },
+  "homepage": "https://github.com/jonalvarezz/platzi-nextjs#readme"
 }
