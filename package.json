@@ -13,17 +13,17 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "^9.4.2",
+    "next": "^13.4.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@types/node": "^14.0.5",
-    "@types/react": "^16.9.35",
+    "@types/node": "^14.18.47",
+    "@types/react": "^16.14.41",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.10"
   },
   "prettier": {
     "trailingComma": "es5",
