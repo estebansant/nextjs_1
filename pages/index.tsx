@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
 import { useRouter } from 'next/router'
 
 const HomePage = () => {
@@ -22,8 +21,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <Navbar />
-      <div>Platzi and Next.js!</div>
+      <h1>Coding on Next.js!</h1>
       {productList.map((product, i) => {
         return <h3 key={i}>{product?.name}</h3>
       })}
