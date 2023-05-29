@@ -4,9 +4,9 @@ import React from 'react'
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head />
-        <body className="bg-red-500">
+        <body className="bg-white">
           <Main />
           <NextScript />
         </body>
