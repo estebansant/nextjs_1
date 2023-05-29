@@ -1,20 +1,46 @@
 {
-  "name": "nextjs_1",
-  "version": "1.0.0",
-  "description": "Practice to learn NextJS",
+  "version": "0.1.0",
+  "name": "platzi-next",
+  "author": "@estebansant",
+  "private": true,
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "keywords": [],
-  "author": "Esteban Santiago <estebansant30@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "NODE_OPTIONS=--inspect next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc --noEmit"
+  },
   "dependencies": {
+    "@types/cors": "^2.8.13",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "isomorphic-unfetch": "^4.0.2",
     "next": "^13.4.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.47",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "husky": "^4.3.8",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "typescript": "^3.9.10"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && yarn type-check"
+    }
   }
 }
