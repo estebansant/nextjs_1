@@ -4,8 +4,8 @@ import '../global.css'
 
 import CartProvider from '@store/Cart'
 
-export function reportWebVitals (metric) {
-  console.log(metric);
+export function reportWebVitals(metric: any) {
+  console.log(metric)
   // serverAnalytics.log(metric)
 }
 
