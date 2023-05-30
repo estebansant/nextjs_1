@@ -10,6 +10,7 @@
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
+    "export": "output: export",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
